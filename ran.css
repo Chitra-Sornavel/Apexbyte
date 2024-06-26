@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+#header{
+    background-image: linear-gradient(to right, pink, royalblue);
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    margin-left: 80px;
+    margin-right: 100px;
+    
+}
+.logo{
+    margin-top: 20px;
+}
+.header-text h1{
+    font-size: 80px;
+    margin-top: 100px;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: royalblue;
+}
+span{
+    color: palevioletred;
+    
+}
+.common-btn{
+
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid;
+    color: royalblue;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+p{
+    font-size: 15px;
+    line-height: 18px;
+}
+.header-text button{
+    margin-top: 20px;
+    margin-bottom: 60px ;
+}
+
+
+#sidenav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    z-index: 2;
+    background: palevioletred;
+    transition: .5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+li :hover{
+    color: black;
+}
+
+#menubtn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+.box{
+    border: 2px solid;
+    height: 240px;
+    width: 500px;
+    border-color: royalblue;
+    margin: auto;
+    padding: 30px;
+    margin-top: 30px;
+    
+}
+#about{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.about-left{
+    flex-basis: 50%;
+    display: inline-block;
+
+}
+
+.about-left img{
+    width: 350px;
+    margin-left: 70px;
+    position: relative;
+    bottom: 200px;
+    
+}
+.about-right{
+    flex-basis: 50%;
+    text-align: right;
+    display: inline-block;
+    
+}
+.about-text{
+    width: 970px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+.about-text h1{
+    font-family: serif;
+    font-weight: bolder;
+    color: palevioletred;
+    font-size: 3rem;
+    
+}
+.about-text p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    text-justify: inter-word;
+}
+.about-text h2{
+    margin: 50px 0 10px;
+    font-size: 28px;
+    font-style: italic;
+}
+.about-text h3{
+    font-size: 20px;
+    font-style: italic;
+    color: royalblue;
+}
+#backhaul{
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.backhaul-left{
+    flex-basis: 50%;
+    text-align: left;
+    display: inline-block;
+    
+}
+.backhaul-text{
+    width: 900px;
+    position: relative;
+    bottom: 100px;
+}
+.backhaul-right{
+    flex-basis: 50%;
+    display: inline-block;
+
+}
+.backhaul-right img{
+    width: 350px;
+    margin-left: 950px;
+    display: inline-block;
+    position: relative;
+    bottom: 300px;
+}
+.backhaul-text h1{
+    font-family: serif;
+    font-weight: bolder;
+    color: palevioletred;
+    font-size: 3rem;
+}
+.backhaul-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+div{
+    text-justify: inter-word;
+}
+
+#evolution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    position: relative;
+    bottom: 250px;
+}
+.evolution-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.evolution-title h1{
+    color: royalblue;
+    font-weight: 600;
+    font-size: 3rem;
+    font-family: serif;
+}
+.evolution-img{
+    width: 100%;
+    height: auto;
+}
+.evolution-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.evolution-text{
+    padding: 50px;
+}
+.evolution-text h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.evolution-text span{
+    font-weight: bolder;
+}
+
+
+#articles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    position: relative;
+    bottom: 80px;
+
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading h1{
+    color: royalblue;
+    font-weight: 600;
+    font-size: 3rem;
+    font-family: serif;
+}
+.article-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+.article-box{
+    width: 350px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    margin: 20px;
+}
+.article-img{
+    width: 100%;
+    height: auto;
+}
+.article-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.article-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.article-text span{
+    color: palevioletred;
+    font-size: 1.3rem;
+}
+.article-text .article-title{
+    font-size: 2rem;
+    font-weight: 100;
+    color: black;
+}
+.article-text .article-title:hover{
+    color: palevioletred;
+    transition: all ease 0.3s;
+}
+.article-text p{
+    color: gray;
+    font-size: 1.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0;
+}
+.article-text a{
+    color: black;
+}
+.article-text .a:hover{
+    color: palevioletred;
+    transition: all ease 0.3s;
+}
+@media(max-width:1250px){
+    .article-box{
+        width: 300px;
+    }
+}
+@media(max-width:1100px){
+    .article-box{
+        width: 70%;
+    }
+}
+@media(max-width:550px){
+    .article-box{
+        margin: 20px 10px;
+        width: 100%;
+    }
+    #article{
+        padding: 20px;
+    }
+}
+#key-points{
+    position: relative;
+    bottom: -100px;
+}
+.points-img{
+    position: relative;
+    bottom: 300px;
+    height: 500px;
+}
+.points-text{
+    position: absolute;
+    color: black;
+    padding: 50px;
+    text-align: center;
+    bottom: 100px;
+    top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.points-text h1{
+    font-family: serif;
+    font-size: 3rem;
+}
+.points-text span{
+    font-weight: bolder;
+    font-family: serif;
+}
+#parameters{
+    position: relative;
+    bottom: 320px;
+}
+.head h1{
+    font-family: serif;
+    padding-left: 60px;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.gallery img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid palevioletred;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+} 
+.gallery img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
