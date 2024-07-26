@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+.header{
+    position: relative;
+    text-align: left;
+    color: white;
+}
+.header img{
+    min-height: 30vh;
+    background-position: bottom center;
+    background-size: cover;
+    padding: 0%;
+}
+.text-block{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%, -50%,);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+.text-block h1{
+    margin: 0;
+    font-size: 2.5em;
+}
+.text-block p{
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+.box{
+    border: 2px solid;
+    height: 280px;
+    width: 500px;
+    border-color: royalblue;
+    margin: auto;
+    padding: 30px;
+    margin-top: 30px;
+}
+.box p{
+    font-size: medium;
+}
+#about{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.about-left{
+    flex-basis: 50%;
+    display: inline-block;
+
+}
+
+.about-left img{
+    width: 300px;
+    margin-left: 70px;
+    position: relative;
+    bottom: 5px;
+    
+}
+.about-right{
+    flex-basis: 50%;
+    text-align: right;
+    display: inline-block;
+    
+}
+.about-text{
+    width: 970px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+.about-text h1{
+    font-family: serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 3rem;
+    
+}
+.about-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+div{
+    text-justify: inter-word;
+}
+
+#About2{
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.About2-left{
+    flex-basis: 50%;
+    text-align: left;
+    display: inline-block;
+    
+}
+.About2-text{
+    width: 900px;
+    position: relative;
+    bottom: 2px;
+}
+.About-right{
+    flex-basis: 50%;
+    display: inline-block;
+
+}
+.About2-right img{
+    width: 350px;
+    margin-left: 950px;
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+}
+.About2-text h1{
+    font-family: serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 3rem;
+}
+.About2-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    
+}
+div{
+    text-justify: inter-word;
+}
+ 
+
+
+.features{
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
+    margin: 20px 0;
+    position: relative;
+    bottom: 200px;
+
+}
+.card{
+    max-width: 300px;
+    height: 550px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    
+}
+.image-container{
+    width: 300px;
+    padding: 20px;
+}
+.card-text{
+    padding: 20px;
+}
+.card-text h3{
+    font-size: large;
+    color: blue;
+    font-weight: bold;
+}
+.card-text p{
+    font-size: medium;
+}
+.features2{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
+    margin: 20px 0;
+    position: relative;
+    bottom: 200px;
+
+}
+.card2{
+    max-width: 300px;
+    height: 550px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+.image-container2{
+    width: 300px;
+    padding: 20px;
+}
+.card-text2{
+    padding: 20px;
+}
+.card-text2 h3{
+    font-size: large;
+    color: blue;
+    font-weight: bold;
+}
+.card-text2 p{
+    font-size: medium;
+}
