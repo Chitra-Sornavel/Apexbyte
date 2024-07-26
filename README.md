@@ -1,3 +1,3 @@
 # Apexbyte
-My Projects during Internships
+My Projects during Internship.
 Created two websites for Bluebrain Solutions Project
